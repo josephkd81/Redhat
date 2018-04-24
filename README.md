@@ -33,7 +33,7 @@
 
 ## EDA
 - column name이 아무런 정보도 담고 있지 않아서(ex.char_1, 2, ...) domain knowledge를 활용하기 힘듦.
-- features(50) : str(21) / bool(28) / int(1) / datetime(2)
+- features(52) : str(21) / bool(28) / int(1) / datetime(2)
 - feature engineering : split date features to year/month/day/weekday features. 
 - feature engineering : making 'from_join_to_act'(date_act - date_ppl) feature.
 - bar chart로 확인했을 때, 'activity_category' 등의 소수의 feature를 제외하면 대부분의 feature들이 outcome과 거의 유사한 구조로 되어있어 유의미한 변수가 아닐 것으로 예상됨.
